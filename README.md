@@ -19,10 +19,6 @@
 - Manifest V3
 
 ---
-.env setup
-CLIENT_ID=your_github_client_id
-CLIENT_SECRET=your_github_client_secret
-
 
 
 
