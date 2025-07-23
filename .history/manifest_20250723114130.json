@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode GitHub Pusher",
+  "version": "1.0",
+  "description": "Push your LeetCode code directly to GitHub from this extension.",
+  "permissions": [
+    "identity",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://api.github.com/*",
+    "http://localhost:3000/*"
+  ],
+  "oauth2": {
+    "client_id": "Ov23lieYKdpuAb55N8zU",
+    "scopes": ["repo"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

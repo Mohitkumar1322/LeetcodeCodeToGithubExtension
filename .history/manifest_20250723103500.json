@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode to GitHub",
+  "version": "1.0",
+  "permissions": ["scripting", "storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

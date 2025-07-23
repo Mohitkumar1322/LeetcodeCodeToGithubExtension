@@ -1,0 +1,32 @@
+// {
+//   "manifest_version": 3,
+//   "name": "LeetCode to GitHub",
+//   "version": "1.0",
+//   "permissions": ["scripting", "storage", "activeTab"],
+//   "action": {
+//     "default_popup": "popup.html",
+//     "default_icon": "icon.png"
+//   },
+//   "content_scripts": [
+//     {
+//       "matches": ["*://leetcode.com/problems/*"],
+//       "js": ["content.js"]
+//     }
+//   ]
+// }
+{
+  "manifest_version": 3,
+  "name": "LeetCode GitHub Pusher",
+  "version": "1.0",
+  "description": "Push your LeetCode code directly to GitHub from this extension.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://api.github.com/*"]
+}

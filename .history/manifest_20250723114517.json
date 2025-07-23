@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "CodePusher",
+  "version": "1.0",
+  "permissions": ["identity", "storage", "scripting", "tabs"],
+  "host_permissions": [
+    "https://api.github.com/",
+    "http://localhost:3000/"
+  ],
+  "oauth2": {
+    "client_id": "Ov23lieYKdpuAb55N8zU",
+    "scopes": ["repo", "user"]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
