@@ -19,6 +19,14 @@
 - Manifest V3
 
 ---
+.env setup
+CLIENT_ID=your_github_client_id
+CLIENT_SECRET=your_github_client_secret
+
+
+
+
+node server.js
 
 ## 🚀 Getting Started
 
@@ -27,12 +35,18 @@
 ```bash
 git clone https://github.com/your-username/CodePusher.git
 cd CodePusher
-.env setup
+
+```
+### .env Setup
+```bash
 CLIENT_ID=your_github_client_id
 CLIENT_SECRET=your_github_client_secret
-⚠️ Get your CLIENT_ID and CLIENT_SECRET by registering your OAuth App at: https://github.com/settings/developers
+```
+### ⚠️ Get your CLIENT_ID and CLIENT_SECRET by registering your OAuth App at: https://github.com/settings/developers
 
-
-Start the Server
+### Start the Server
+```bash
 node server.js
+```
+
 
