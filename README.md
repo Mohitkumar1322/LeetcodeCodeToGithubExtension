@@ -9,3 +9,30 @@
 - ✅ Chrome Extension using Manifest V3
 - ✅ Node.js backend for access token exchan
 
+- ## 🛠️ Technologies Used
+
+- JavaScript (Chrome Extension API)
+- Node.js + Express (backend)
+- GitHub OAuth API
+- HTML/CSS (UI)
+- Webpack (optional for bundling)
+- Manifest V3
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/CodePusher.git
+cd CodePusher
+.env setup
+CLIENT_ID=your_github_client_id
+CLIENT_SECRET=your_github_client_secret
+⚠️ Get your CLIENT_ID and CLIENT_SECRET by registering your OAuth App at: https://github.com/settings/developers
+
+
+Start the Server
+node server.js
+
