@@ -9,19 +9,3 @@
 - ✅ Chrome Extension using Manifest V3
 - ✅ Node.js backend for access token exchan
 
-- ## 📁 Project Structure
-- CodePusher/
-├── popup.html # Extension popup UI
-├── popup.js # Handles GitHub auth & UI logic
-├── background.js # Manages background OAuth flow
-├── manifest.json # Extension manifest (V3)
-├── screenshot.png # Preview screenshot (optional)
-├── server/ # Backend server
-│ ├── server.js
-│ ├── .env
-│ └── package.json
-
-
-CLIENT_ID=your_github_client_id
-CLIENT_SECRET=your_github_client_secret
-node server.js
